@@ -1,7 +1,13 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+
 export default function App() {
   return (
     <>
-      <h1>Welcome to task management system</h1>
+      <Header />
+      <HeroSection />
+      <Footer />
     </>
   );
 }
